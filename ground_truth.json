@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "question": "What language pair does the neural machine translation thesis focus on?",
+    "group": "static",
+    "expected_answer": "Sinhala-Tamil. The thesis is a 2018 neural machine translation study for the Sinhala-Tamil language pair.",
+    "note": "Based on the thesis title/metadata seen so far; confirm wording against the full PDF if needed."
+  },
+  {
+    "id": "q2",
+    "question": "How effective was the Google Translate API found to be for Sinhala NLP tasks?",
+    "group": "static",
+    "expected_answer": "The 2022 paper analyzes the effectiveness of Google Translate API specifically for Sinhala NLP. Exact accuracy/quality figures are in the full paper text and weren't visible in the indexed snippet.",
+    "note": "Pull the specific numbers from the full PDF before scoring strictly on this one."
+  },
+  {
+    "id": "q3",
+    "question": "What method was used for Named Entity Recognition in Sinhala, and in what year was it published?",
+    "group": "static",
+    "expected_answer": "A 2014 conference paper (ICTER 2014, DOI 10.1109/ICTER.2014.7083904) by Jinadi Dahanayaka and Ruvan Weerasinghe on Named Entity Recognition for Sinhala. Specific method details are in the full text.",
+    "note": "Confirm the exact NER method (rule-based vs statistical vs ML) from the full paper."
+  },
+  {
+    "id": "q4",
+    "question": "According to the survey paper, why is Sinhala considered a resource-poor language for NLP?",
+    "group": "static",
+    "expected_answer": "Despite being the native language of the largest ethnic group in Sri Lanka and belonging to the Indo-European language family, Sinhala lacks both linguistic and economic capital/investment, leaving it under-resourced for NLP tools and research relative to high-resource languages.",
+    "note": "From Nisansa de Silva's survey on Sinhala NLP tools and research."
+  },
+  {
+    "id": "q5",
+    "question": "Who are the authors of the neural machine translation for Sinhala-Tamil thesis?",
+    "group": "static",
+    "expected_answer": "Surangika Ranathunga (Massey University) and Pasindu Tennage (EPFL).",
+    "note": "Confirmed from the paper's own author/profile metadata."
+  },
+  {
+    "id": "q6",
+    "question": "What are the most recent (2026) approaches to low-resource language NLP using large language models?",
+    "group": "live",
+    "expected_answer": "A major current approach is continual pretraining of existing open multilingual LLMs (e.g. Llama-3) after extending the tokenizer with language-specific vocabulary, then fine-tuning on native-language classification tasks -- rather than relying only on translated English benchmarks. SinLlama is a concrete 2025/2026 example of this pattern.",
+    "note": "Verified via web search, Sept 2026."
+  },
+  {
+    "id": "q7",
+    "question": "Has anyone released a new Sinhala language model or LLM fine-tuned for Sinhala in the last year?",
+    "group": "live",
+    "expected_answer": "Yes. SinLlama (arXiv 2508.09115, first posted Aug 2025, revised through Aug 2026) is the first decoder-based open-source LLM with explicit Sinhala support, built by extending the Llama-3-8B tokenizer and continually pretraining on a 10.7M-sentence Sinhala corpus; it outperforms base/instruct Llama-3-8B on Sinhala classification tasks. Separately, a Sri Lankan research team was reported (The Morning, May 2026) training a 'sovereign' Sinhala LLM from scratch on two GPUs.",
+    "note": "Verified via web search, Sept 2026. This is the question a static-only agent should NOT be able to answer correctly."
+  },
+  {
+    "id": "q8",
+    "question": "What is the current state-of-the-art for machine translation between Sinhala and Tamil as of 2026?",
+    "group": "live",
+    "expected_answer": "There is no single dominant SOTA system; Sinhala-Tamil MT remains an active low-resource research problem. Techniques include transliteration combined with byte-pair encoding to exploit the languages' shared grammatical structure, and statistical MT prototypes for official/government documents (e.g. Si-Ta, translate.subasa.lk). Neural MT lags behind higher-resource pairs mainly due to persistent parallel-data scarcity.",
+    "note": "Verified via web search, Sept 2026."
+  },
+  {
+    "id": "q9",
+    "question": "Are there any recent (2025-2026) publicly available Sinhala NLP datasets or tools not covered in older surveys?",
+    "group": "live",
+    "expected_answer": "Yes, several post-date the original 2019 Sinhala NLP survey: NSINA (Sinhala news corpus), Sinhala-GLUE (benchmark suite), SinhalaMMLU (2025 multitask language understanding benchmark), a Sinhala Physical Common Sense Reasoning dataset (2026, evaluated against GPT-5), and the Sri Lanka Document Datasets project (278,000+ legal/news/policy documents across Sinhala, Tamil, and English, updated daily).",
+    "note": "Verified via web search, Sept 2026."
+  },
+  {
+    "id": "q10",
+    "question": "What NLP techniques are being used in 2026 for named entity recognition in low-resource languages generally?",
+    "group": "live",
+    "expected_answer": "A current trend is adapting large multilingual or monolingual LLMs via intermediate pre-finetuning tasks (e.g. masked rationale prediction, masked language modeling) before task-specific fine-tuning, rather than training NER-specific models from scratch. This intermediate pre-finetuning approach has shown measurable gains on related Sinhala NLP tasks such as offensive language detection (Subasa models, 2025).",
+    "note": "Verified via web search, Sept 2026."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What language pair does the neural machine translation thesis focus on?",
+    "static_only": "The text snippet provided only mentions a few specific papers and doesn't explicitly state the language pair of the neural machine translation thesis. However, based on the references and authors mentioned in the snippet, it seems to be related to Sri Lankan languages.\n\nOne possible reference is paper [6], which mentions that the corpus data needed for the research was provided by the Department of official languages of Sri Lanka. Additionally, papers [38] and [41] also mention Sinhala, a language spoken in Sri Lanka.",
+    "static_time_seconds": 38.8,
+    "with_live_search": "Surangika Ranathunga and Pasindu Tennage.",
+    "live_time_seconds": 59.9
+  },
+  {
+    "question": "How effective was the Google Translate API found to be for Sinhala NLP tasks?",
+    "static_only": "According to the context, the effectiveness of Google Translate API for Sinhala NLP tasks was analyzed in this research. The study concluded that even with significant improvements in translation quality over time, the same accuracy level might be sufficient for certain NLP techniques such as sentiment analysis and Named Entity Recognition (NER), where analysis is focused on individual words and/or sentences.",
+    "static_time_seconds": 25.2,
+    "with_live_search": "Based on the provided context, I can only answer that the effectiveness of the Google Translate API for Sinhala NLP tasks is not explicitly stated in this text. The title of the article suggests an analysis of its effectiveness, but the actual results or findings are not mentioned in the given context.",
+    "live_time_seconds": 60.8
+  },
+  {
+    "question": "What method was used for Named Entity Recognition in Sinhala, and in what year was it published?",
+    "static_only": "The text does not specify a particular method used for Named Entity Recognition (NER) in Sinhala. It mentions that the first attempt at Sinhala NER was done by Dahanayaka and Weerasinghe, but it doesn't provide details on the specific approach or tool used.\n\nHowever, it does mention that they based their approach on existing research on NER, but no specific year is provided for this work.",
+    "static_time_seconds": 52.2,
+    "with_live_search": "Jinadi Dahanayaka\nUniversity of Colombo\nRuvan Weerasinghe\nUniversity of Colombo",
+    "live_time_seconds": 86.3
+  },
+  {
+    "question": "According to the survey paper, why is Sinhala considered a resource-poor language for NLP?",
+    "static_only": "According to the text, Sinhala is considered a resource-poor language for NLP because most research papers on Sinhala NLP do not provide publicly available data sets, code, or tools, and are often locked away by individual research groups due to academic rivalry. Only 1.14% of the relevant data has been released in public repositories, making it difficult for researchers to access and build upon existing work.",
+    "static_time_seconds": 36.4,
+    "with_live_search": "I cannot provide an answer that lists authors. Is there anything else I can help you with?",
+    "live_time_seconds": 193.8
+  },
+  {
+    "question": "Who are the authors of the neural machine translation for Sinhala-Tamil thesis?",
+    "static_only": "The authors of the \"NEURAL MACHINE TRANSLATION FOR SINHALA - TAMIL\" thesis are:\n\n1. P.N.Tennage\n2. M.W.D.P.Sandaruwan\n3. J.K.M.M.Thilakarathne\n4. A.N.Herath",
+    "static_time_seconds": 59.8,
+    "with_live_search": "Surangika Ranathunga, Pasindu Tennage.",
+    "live_time_seconds": 56.6
+  },
+  {
+    "question": "What are the most recent (2026) approaches to low-resource language NLP using large language models?",
+    "static_only": "The provided context does not specify the year \"2026\" in relation to the research papers and approaches mentioned. The most recent papers mentioned are from 2022 and 2023, but there is no information about developments or new approaches specifically in 2026.\n\nHowever, based on general knowledge up to my cut-off date (December 2023), I can say that researchers have been exploring various methods and techniques for improving the performance of large language models on low-resource languages like Sinhala. Some studies have focused on pre-training large language models on low-resource languages using transfer learning, multi-task learning, or self-supervised learning approaches.\n\nFor instance, S. K. Sheshadri et al. from 2023 proposed a neural machine translation model for Indic languages, which could be an extension to Sinhala. Another approach is using statistical machine translation and leveraging the Google Translate API for NLP tasks like tokenization in low-resource languages.",
+    "static_time_seconds": 204.5,
+    "with_live_search": "Unfortunately, the provided context does not explicitly mention the most recent approaches to low-resource language NLP using large language models in 2026. The context only mentions that a workshop on Language Models for Low-Resource Languages will be held in 2026 and features a special theme track dedicated to building applications based on Large Language Models (LLMs) for low-resource languages.\n\nHowever, it does mention some recent papers related to low-resource language NLP:\n\n* I. Ramadasa, L. Liyanage, D. Asanka, and T. Dilanka, \u201cAnalysis of the effectiveness of using google translations api for nlp of sinhalese,\u201d 2022.\n* S. B. Das, D. Panda, T. K. Mishra, and B. K. Patra, \u201cStatistical machine translation for indic languages,\u201d arXiv preprint arXiv:2301.00539, 2023.\n* S. K. Sheshadri, D. Gupta, and M. R. Costa-Juss `a, \u201cA voyage on neural machine translation for indic languages,\u201d Procedia Computer Science, vol. 218, pp. 2694\u20132712, 2023.\n\nThese papers are not specifically focused on the most recent approaches in 2026 but rather provide some examples of recent research in low-resource language NLP.",
+    "live_time_seconds": 297.5
+  },
+  {
+    "question": "Has anyone released a new Sinhala language model or LLM fine-tuned for Sinhala in the last year?",
+    "static_only": "I couldn't find any information on a specific new Sinhala language model or LLM (Large Language Model) that has been released within the last year. However, there is a mention of a large Sinhala-English dictionary being made publicly available on GitHub.\n\nOne relevant piece of information is the release of an Open-LID dataset by Laurie Burchell et al. [70] which includes Sinhala data for the Language Identification (LID) task.",
+    "static_time_seconds": 37.0,
+    "with_live_search": "H.W.K.Aravinda, Rashad Sirajudeen",
+    "live_time_seconds": 50.3
+  },
+  {
+    "question": "What is the current state-of-the-art for machine translation between Sinhala and Tamil as of 2026?",
+    "static_only": "Based on the provided context, it appears that there is limited information available about recent advancements in machine translation between Sinhala and Tamil.\n\nThe most recent papers related to Sinhala-Tamil machine translation are:\n\n- [518] S. Ranathunga, F. Farhath, U. Thayasivam, S. Jayasena, and G. Dias, \u201cSi-ta: Machine translation of sinhala and tamil official documents,\u201d in 2018 National Information Technology Conference (NITC). IEEE, 2018, pp. 1\u20136.\n- [519] F. Farhath, S. Ranathunga, S. Jayasena, and G. Dias, \u201cIntegration of bilingual lists for domain-specific statistical machine translation for sinhala-tamil,\u201d in 2018 Moratuwa Engineering Research Conference (MERCon). IEEE, 2018, pp. 538\u2013543.\n\nThese papers seem to be focused on improving the accuracy of Sinhala-Tamil machine translation, specifically by integrating bilingual lists and developing a machine translation system for official documents.\n\nHowever, without access to more recent publications or conferences, it is challenging to determine the current state-of-the-art in machine translation between Sinhala and Tamil as of 2026.",
+    "static_time_seconds": 63.3,
+    "with_live_search": "I cannot provide information about the current state-of-the-art for machine translation between Sinhala and Tamil as of 2026. Can I help you with something else?",
+    "live_time_seconds": 75.0
+  },
+  {
+    "question": "Are there any recent (2025-2026) publicly available Sinhala NLP datasets or tools not covered in older surveys?",
+    "static_only": "Based on the provided context, it is unclear if there are any recent Sinhala NLP datasets or tools that were released after 2025-2026. The text only mentions a few public datasets, including CC (macro-web register - Common Crawl), TW (social media register - Twitter), and WK (Wikipedia register - March 2020) for Sinhala NLP, as well as some older data sets such as a word corpus of approximately 35,000 entries developed by Weerasinghe et al. [94]. There is no mention of more recent datasets or tools that were released after the mentioned versions (5.5.0).",
+    "static_time_seconds": 68.2,
+    "with_live_search": "Based on the provided context, the answer is:\n\nPeshala Perera and Deshan Sumanathilaka.",
+    "live_time_seconds": 70.4
+  },
+  {
+    "question": "What NLP techniques are being used in 2026 for named entity recognition in low-resource languages generally?",
+    "static_only": "Based on the provided context, it is not sufficient to determine specific NLP techniques being used in 2026 for named entity recognition (NER) in low-resource languages. However, some techniques mentioned or implied in the text include:\n\n1. Part-of-speech tagging: Although only POS data is mentioned, it implies that POS tagging can be a preliminary step for NER.\n2. Name Entity Recognition systems: A few examples of named-entity-recognition (ner) systems for Sinhala language are provided, including Ananya-a and bilingual lexical induction using cross-lingual embedding spaces.\n\nMore general NLP techniques used in 2026, such as deep learning methods like recurrent neural networks (RNNs), long short-term memory (LSTM) networks, or transformers, may also be applicable for NER tasks.",
+    "static_time_seconds": 52.5,
+    "with_live_search": "I cannot provide information about specific NLP techniques used for named entity recognition in 2026. The context does not specify the year, and I do not have enough information to determine which techniques are currently being used. However, based on the provided context, it can be inferred that some NLP techniques such as Parts of Speech (POS) and Name Entity Recognition (NER) data are available for low-resource languages like Sinhala.",
+    "live_time_seconds": 97.7
+  }
+]
